@@ -5,10 +5,15 @@ type ExperienceTabProps = {
   points: string[];
 };
 
-export default function ExperienceTab({ title, role, description, points }: ExperienceTabProps) {
+export default function ExperienceTab({
+  title,
+  role,
+  description,
+  points,
+}: ExperienceTabProps) {
   return (
     <div className="mb-8">
-      <h2 className="secondary-heading mb-3 mt-6 text-lg font-medium uppercase sm:text-xl">
+      <h2 className="text-secondary mb-3 mt-6 text-lg font-medium uppercase sm:text-xl">
         {title}
       </h2>
       <h3 className="mb-3 text-sm text-gray-400 sm:text-base">{role}</h3>

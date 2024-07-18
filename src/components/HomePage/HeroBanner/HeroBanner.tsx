@@ -8,12 +8,12 @@ export default function HeroBanner() {
         <h1 className="mb-2 text-3xl font-bold text-teal-600 sm:text-4xl ">
           Hey, I am Nick Don!
         </h1>
-        <p className="primary-text mb-3 lg:mr-4">
+        <p className="text-primary mb-3 lg:mr-4">
           {`Welcome! I'm a full-stack developer based in Melbourne, Australia. I
           am driven by the goal of developing high-quality code that leads to
           high-quality products.`}
         </p>
-        <p className="primary-text mt-3">
+        <p className="text-primary mt-3">
           I am currently looking for full-time full-stack/back-end/front-end
           roles within Australia.
         </p>
