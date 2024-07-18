@@ -9,9 +9,9 @@ export default function HeroBanner() {
           Hey, I am Nick Don!
         </h1>
         <p className="primary-text mb-3 lg:mr-4">
-          Welcome! I'm a full-stack developer based in Melbourne, Australia. I
+          {`Welcome! I'm a full-stack developer based in Melbourne, Australia. I
           am driven by the goal of developing high-quality code that leads to
-          high-quality products.
+          high-quality products.`}
         </p>
         <p className="primary-text mt-3">
           I am currently looking for full-time full-stack/back-end/front-end
